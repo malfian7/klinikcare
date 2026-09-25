@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Aplikasi Manajemen Klinik BPJS &amp; SATUSEHAT | KlinikCare</title>
+<meta name="description" content="KlinikCare adalah aplikasi manajemen klinik untuk pendaftaran, rekam medis elektronik, laboratorium, farmasi, dan kasir. Terintegrasi BPJS dan SATUSEHAT.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://klinikcare.id/">
+<meta name="theme-color" content="#0B86C6">
+
+<!-- Favicon -->
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="favicon-16x16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<meta property="og:site_name" content="KlinikCare">
+<meta property="og:url" content="https://klinikcare.id/">
+<meta property="og:title" content="Aplikasi Manajemen Klinik BPJS &amp; SATUSEHAT | KlinikCare">
+<meta property="og:description" content="KlinikCare adalah aplikasi manajemen klinik untuk pendaftaran, rekam medis elektronik, laboratorium, farmasi, dan kasir. Terintegrasi BPJS dan SATUSEHAT.">
+<meta property="og:image" content="https://klinikcare.id/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="KlinikCare, aplikasi manajemen klinik dalam satu sistem">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aplikasi Manajemen Klinik BPJS &amp; SATUSEHAT | KlinikCare">
+<meta name="twitter:description" content="KlinikCare adalah aplikasi manajemen klinik untuk pendaftaran, rekam medis elektronik, laboratorium, farmasi, dan kasir. Terintegrasi BPJS dan SATUSEHAT.">
+<meta name="twitter:image" content="https://klinikcare.id/assets/og-image.jpg">
+
+<!-- Fonts & styles -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&family=Marcellus&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>try{if("IntersectionObserver" in window&&!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("anim")}catch(e){}</script>
+
+<!-- Data terstruktur -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://klinikcare.id/#org","name":"PT Prawathiya Karsa Pradiptha","url":"https://www.pkp.co.id/en/","logo":"https://klinikcare.id/assets/klinikcare-logo.webp","email":"marketing@pkp.co.id","telephone":"+62-21-8431-1636","address":{"@type":"PostalAddress","streetAddress":"Kawasan Niaga Citra Gran Blok R7 No. 32, Jl. Alternatif Transyogie","addressLocality":"Cibubur","postalCode":"17433","addressCountry":"ID"},"contactPoint":[{"@type":"ContactPoint","contactType":"sales","telephone":"+62-21-8431-1636","email":"marketing@pkp.co.id","areaServed":"ID","availableLanguage":["id"]},{"@type":"ContactPoint","contactType":"customer support","telephone":"+62-811-1568-477","areaServed":"ID","availableLanguage":["id"]}],"sameAs":["https://www.facebook.com/profile.php?id=100095224112103","https://www.instagram.com/klinikhub.id","https://www.tiktok.com/@klinikhub"]},{"@type":"WebSite","@id":"https://klinikcare.id/#website","url":"https://klinikcare.id/","name":"KlinikCare","inLanguage":"id-ID","publisher":{"@id":"https://klinikcare.id/#org"}},{"@type":"SoftwareApplication","@id":"https://klinikcare.id/#app","name":"KlinikCare","applicationCategory":"BusinessApplication","operatingSystem":"Web","url":"https://klinikcare.id/","image":"https://klinikcare.id/assets/og-image.jpg","description":"KlinikCare adalah aplikasi manajemen klinik untuk pendaftaran, rekam medis elektronik, laboratorium, farmasi, dan kasir. Terintegrasi BPJS dan SATUSEHAT.","inLanguage":"id-ID","publisher":{"@id":"https://klinikcare.id/#org"},"featureList":["Pendaftaran pasien dan antrean","Rekam medis elektronik","Laboratorium","Radiologi","Farmasi dan persediaan obat","Kasir dan tagihan","Integrasi BPJS","Standar SATUSEHAT"]},{"@type":"FAQPage","@id":"https://klinikcare.id/#faq","mainEntity":[{"@type":"Question","name":"Bagaimana cara mengajukan demo aplikasi?","acceptedAnswer":{"@type":"Answer","text":"Silakan isi formulir di bagian bawah halaman ini, atau hubungi kami melalui telepon (021) 8431 1636 dan email marketing@pkp.co.id. Tim kami akan menjadwalkan demo sesuai kebutuhan klinik Anda."}},{"@type":"Question","name":"Apakah aplikasi dapat dibeli secara penuh?","acceptedAnswer":{"@type":"Answer","text":"Dapat. Selain pembelian penuh, kami juga menyediakan skema sewa aplikasi dengan langganan bulanan atau tahunan."}},{"@type":"Question","name":"Apakah tersedia pelatihan penggunaan aplikasi?","acceptedAnswer":{"@type":"Answer","text":"Ya. Kami menyediakan pelatihan bagi pengguna, sehingga dokter, apoteker, laboran, dan staf administrasi siap menggunakan KlinikCare."}},{"@type":"Question","name":"Apakah pemeliharaan sistem termasuk dalam layanan?","acceptedAnswer":{"@type":"Answer","text":"Ya. Pemeliharaan sistem merupakan bagian dari layanan kami."}},{"@type":"Question","name":"Bagaimana keamanan data klinik kami?","acceptedAnswer":{"@type":"Answer","text":"KlinikCare dikembangkan oleh PT Prawathiya Karsa Pradiptha, perusahaan penyedia aplikasi yang telah beroperasi lebih dari 10 tahun. Kami menjaga keamanan dan kerahasiaan data setiap klien."}},{"@type":"Question","name":"Berapa lama masa penggunaan sistem setelah pembelian?","acceptedAnswer":{"@type":"Answer","text":"Kami menyediakan beberapa pilihan paket sesuai kebutuhan klinik. Untuk informasi lebih lanjut, silakan hubungi kami di (021) 8431 1636."}}]}]}</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="kc-mark" viewBox="0 0 108 107"><path fill="var(--logo-navy)" fill-rule="evenodd" d="M38.92 102.83C38.27 102.56 37.66 102.34 37.56 102.34C37.16 102.33 35.88 100.86 35.77 100.29C35.37 98.17 38.57 94.30 43.56 90.88C44.97 89.92 45.17 89.72 45.17 89.28L45.17 88.90L42.21 88.90C39.32 88.91 39.22 88.90 38.12 88.44C37.50 88.17 36.92 87.82 36.83 87.66C36.60 87.24 36.63 86.71 36.88 86.51C36.99 86.42 37.61 85.91 38.24 85.38C39.48 84.36 39.67 84.22 41.75 82.75C42.48 82.24 43.42 81.56 43.83 81.24C44.25 80.93 44.81 80.55 45.08 80.40C45.36 80.24 45.83 79.91 46.13 79.64C46.43 79.38 46.77 79.16 46.88 79.16C46.99 79.16 47.34 78.93 47.66 78.66C47.98 78.39 48.30 78.17 48.38 78.17C48.46 78.17 48.86 77.94 49.26 77.67C49.67 77.39 50.33 76.94 50.74 76.67C51.14 76.39 51.53 76.17 51.60 76.17C51.67 76.17 51.88 76.02 52.07 75.85C52.39 75.55 52.89 75.25 54.58 74.32C54.95 74.12 55.39 73.84 55.56 73.69C55.92 73.37 57.15 72.64 58.08 72.20C58.45 72.02 58.89 71.72 59.07 71.52C59.24 71.33 59.47 71.17 59.58 71.17C59.69 71.17 60.07 70.94 60.43 70.67C60.79 70.40 61.17 70.17 61.27 70.17C61.37 70.17 61.74 69.94 62.08 69.67C62.43 69.39 62.80 69.17 62.90 69.17C63.01 69.17 63.34 68.94 63.64 68.67C64.08 68.26 64.87 68.01 65.03 68.21C65.05 68.23 65.11 70.27 65.16 72.75L65.25 77.25L65.73 77.30C66.06 77.34 66.43 77.20 66.90 76.87C67.27 76.60 67.92 76.22 68.33 76.01C69.33 75.53 70.05 75.12 70.80 74.62C71.14 74.39 71.90 73.91 72.50 73.56C73.10 73.21 73.77 72.78 74.00 72.62C74.46 72.29 75.02 71.91 76.75 70.72C77.39 70.28 78.37 69.58 78.92 69.16C79.47 68.75 80.13 68.27 80.39 68.11C80.64 67.95 80.99 67.68 81.15 67.53C81.32 67.38 81.85 66.95 82.33 66.58C82.82 66.22 83.34 65.80 83.48 65.67C83.63 65.53 84.22 65.05 84.78 64.61C86.88 62.96 86.87 62.96 79.60 62.99C74.11 63.01 73.49 62.99 73.39 62.75C73.28 62.46 74.02 61.71 74.88 61.24C75.14 61.10 75.74 60.68 76.22 60.32C76.69 59.95 77.65 59.22 78.33 58.71C79.59 57.77 81.69 56.02 82.17 55.52C82.31 55.37 83.02 54.73 83.75 54.09C85.37 52.68 87.40 50.60 89.12 48.55C90.46 46.97 90.78 46.71 91.05 46.98C91.15 47.08 91.20 49.09 91.18 52.12C91.16 54.85 91.20 57.22 91.26 57.38C91.57 58.18 92.31 57.41 94.98 53.53C96.28 51.64 97.97 48.52 98.52 47.00C99.19 45.14 99.32 44.64 99.77 42.15C100.20 39.75 100.22 39.54 100.01 38.10C99.61 35.26 99.61 35.33 99.87 35.33C100.89 35.33 102.97 39.63 103.32 42.43C103.78 46.25 103.33 49.43 101.80 53.17C101.13 54.80 99.31 58.30 98.52 59.49C97.59 60.90 97.40 61.15 95.18 64.08C94.54 64.92 91.57 68.25 90.49 69.33C89.25 70.56 85.14 74.34 84.54 74.78C84.20 75.03 83.47 75.62 82.92 76.09C81.84 77.00 80.98 77.65 79.92 78.37C79.55 78.62 79.02 79.00 78.74 79.20C78.46 79.41 77.63 79.97 76.90 80.45C76.18 80.93 75.40 81.46 75.17 81.64C74.94 81.81 74.45 82.12 74.08 82.32C73.72 82.53 72.97 82.95 72.42 83.27C71.87 83.58 71.04 84.03 70.58 84.26C70.12 84.49 69.56 84.78 69.33 84.91C68.95 85.12 67.59 85.76 65.44 86.72C64.99 86.92 63.94 87.43 63.11 87.86C61.66 88.60 60.91 89.00 58.58 90.27C58.03 90.57 57.21 91.01 56.75 91.25C56.29 91.48 55.47 91.93 54.92 92.25C54.37 92.56 53.50 93.05 53.00 93.33C52.50 93.61 51.73 94.05 51.30 94.30C50.88 94.55 50.20 94.93 49.80 95.15C49.41 95.37 48.87 95.72 48.61 95.94C48.35 96.16 48.05 96.33 47.93 96.33C47.82 96.33 47.46 96.52 47.15 96.76C46.84 96.99 45.99 97.57 45.27 98.05C43.37 99.31 43.30 99.36 42.47 100.05C41.55 100.80 41.25 101.43 41.40 102.33C41.58 103.46 40.81 103.62 38.92 102.83ZM35.83 64.24C35.74 64.00 35.67 63.71 35.67 63.58C35.67 63.46 35.57 63.29 35.46 63.22C35.34 63.14 30.15 63.05 23.92 63.00L12.58 62.92L11.67 62.29C11.14 61.93 10.54 61.34 10.25 60.88L9.75 60.08L9.71 48.35C9.65 35.03 9.57 35.92 11.07 34.53C12.18 33.50 12.22 33.50 24.32 33.50C34.57 33.50 35.13 33.48 35.39 33.20C35.64 32.92 35.67 31.91 35.67 22.12C35.67 15.01 35.73 11.06 35.85 10.51C35.99 9.86 36.20 9.49 36.78 8.91C38.22 7.47 37.09 7.58 50.42 7.58L62.26 7.58L63.12 8.14C63.65 8.47 64.19 9.02 64.53 9.55L65.08 10.41L65.17 21.70C65.24 31.78 65.28 33.02 65.52 33.26C65.75 33.49 66.40 33.53 70.27 33.55L74.75 33.58L74.80 33.95C74.85 34.32 73.73 35.48 70.15 38.76C66.38 42.22 61.94 45.91 56.75 49.92C55.74 50.70 54.50 51.65 54.00 52.04C53.50 52.43 52.92 52.86 52.73 53.00C52.53 53.14 51.90 53.61 51.31 54.05C50.73 54.48 49.57 55.32 48.75 55.91C47.93 56.50 47.03 57.15 46.76 57.36C46.49 57.58 46.03 57.90 45.74 58.08C45.45 58.27 44.81 58.70 44.31 59.04C43.82 59.38 42.82 60.07 42.08 60.58C41.35 61.09 40.35 61.78 39.85 62.13C39.36 62.47 38.72 62.90 38.42 63.08C38.13 63.27 37.56 63.70 37.17 64.04C36.31 64.78 36.05 64.82 35.83 64.24Z"/><path fill="var(--logo-green)" fill-rule="evenodd" d="M30.92 101.80C29.01 101.34 28.55 101.20 26.56 100.50C24.00 99.59 21.59 98.11 19.82 96.34C18.02 94.55 17.17 92.76 17.17 90.76C17.17 89.90 17.88 87.23 18.31 86.49C18.49 86.17 18.69 85.73 18.75 85.50C19.15 84.11 23.40 78.72 26.10 76.17C28.12 74.27 31.21 71.56 32.42 70.65C33.06 70.17 34.01 69.43 34.54 69.01C35.06 68.59 36.17 67.76 37.01 67.17C37.85 66.57 38.77 65.89 39.06 65.66C39.35 65.42 40.13 64.86 40.80 64.41C41.47 63.95 42.35 63.36 42.74 63.08C43.13 62.81 44.11 62.13 44.91 61.58C47.29 59.95 47.88 59.54 48.58 59.02C48.95 58.74 49.85 58.10 50.58 57.59C51.32 57.08 52.29 56.37 52.75 56.00C53.21 55.63 53.77 55.20 54.00 55.04C54.46 54.72 55.14 54.21 57.97 52.03C61.86 49.03 63.61 47.61 67.32 44.43C74.57 38.20 80.62 32.02 83.28 28.12C84.11 26.90 85.33 24.49 85.33 24.07C85.33 23.94 85.50 23.37 85.71 22.79C86.05 21.84 86.08 21.47 86.07 18.42C86.06 15.12 86.05 15.06 85.46 12.92C84.64 9.95 83.99 8.17 83.12 6.47C82.64 5.54 82.43 4.95 82.52 4.81C82.62 4.65 82.73 4.63 82.89 4.75C83.02 4.84 83.34 5.06 83.60 5.25C84.33 5.75 87.67 8.72 88.32 9.44C94.01 15.81 96.31 22.47 95.42 30.00C95.27 31.24 95.08 32.55 94.98 32.92C94.48 34.87 93.38 38.04 92.96 38.75C92.85 38.93 92.56 39.46 92.32 39.92C91.30 41.83 90.86 42.50 89.60 44.17C86.92 47.71 82.85 51.95 79.75 54.43C79.20 54.87 78.29 55.61 77.73 56.07C75.43 57.97 72.65 59.98 68.78 62.54C68.12 62.97 67.36 63.48 67.08 63.67C66.81 63.86 66.21 64.25 65.75 64.53C64.83 65.11 63.51 65.95 62.77 66.43C62.50 66.61 62.17 66.82 62.02 66.91C61.46 67.24 59.90 68.23 59.49 68.50C59.26 68.66 58.78 68.95 58.41 69.15C58.05 69.35 57.34 69.77 56.83 70.08C56.33 70.39 55.62 70.81 55.25 71.01C54.88 71.22 53.98 71.77 53.25 72.24C52.52 72.72 51.56 73.33 51.12 73.60C50.68 73.86 50.08 74.25 49.79 74.45C49.49 74.66 49.06 74.92 48.83 75.03C48.60 75.14 48.14 75.44 47.81 75.70C47.48 75.96 47.15 76.17 47.09 76.17C47.02 76.17 46.66 76.38 46.28 76.64C45.90 76.90 45.40 77.24 45.17 77.39C43.42 78.53 41.76 79.68 40.92 80.33C40.37 80.75 39.76 81.20 39.56 81.34C37.63 82.69 33.56 86.15 31.25 88.42C28.54 91.07 27.74 92.74 28.24 94.68C28.81 96.91 30.32 98.82 33.16 100.92C34.29 101.75 34.37 101.84 34.15 102.10C33.89 102.42 33.24 102.36 30.92 101.80ZM47.00 101.99C47.00 101.90 47.28 101.71 47.62 101.57C47.97 101.44 48.62 101.14 49.08 100.91C49.54 100.67 50.29 100.38 50.75 100.25C51.57 100.03 52.86 99.53 54.69 98.74C55.20 98.52 55.73 98.33 55.86 98.33C55.99 98.33 56.36 98.15 56.67 97.92C56.98 97.69 57.31 97.50 57.42 97.50C57.52 97.50 58.12 97.24 58.76 96.92C59.40 96.60 60.03 96.33 60.17 96.33C60.31 96.33 60.68 96.16 61.00 95.94C61.32 95.72 61.77 95.49 62.00 95.42C62.23 95.35 62.75 95.12 63.17 94.91C63.58 94.70 64.25 94.37 64.67 94.18C65.08 94.00 65.53 93.77 65.67 93.68C65.80 93.59 66.25 93.36 66.67 93.18C67.08 92.99 67.53 92.77 67.67 92.68C67.80 92.59 68.25 92.36 68.67 92.17C69.68 91.70 71.66 90.62 74.00 89.25C74.60 88.90 75.31 88.50 75.58 88.36C75.86 88.23 76.30 87.94 76.55 87.72C76.81 87.51 77.12 87.33 77.24 87.33C77.35 87.33 77.70 87.14 78.01 86.91C78.33 86.68 79.15 86.12 79.83 85.66C82.54 83.88 84.13 82.78 85.05 82.03C89.07 78.77 92.07 75.87 93.50 73.84C94.38 72.59 95.80 71.08 95.95 71.23C96.01 71.28 95.93 71.61 95.79 71.96C95.64 72.30 95.43 72.88 95.32 73.25C95.21 73.62 95.06 73.99 94.99 74.09C94.91 74.18 94.46 75.01 93.99 75.92C93.51 76.84 92.95 77.80 92.73 78.05C92.51 78.31 92.33 78.61 92.33 78.72C92.33 79.02 90.18 81.83 88.49 83.76C87.24 85.18 86.05 86.33 84.25 87.86C84.07 88.01 83.62 88.39 83.25 88.71C82.18 89.62 78.91 91.93 77.83 92.53C77.51 92.71 76.88 93.07 76.42 93.34C72.66 95.54 65.21 98.56 61.43 99.42C60.79 99.57 60.14 99.76 59.98 99.84C59.64 100.03 55.72 100.85 52.42 101.43C51.13 101.65 49.87 101.91 49.60 102.00C48.95 102.22 47.00 102.22 47.00 101.99ZM15.69 27.36C15.01 26.66 12.92 24.52 11.03 22.61C6.91 18.44 6.94 18.55 9.96 18.64C12.23 18.71 12.54 18.58 12.76 17.43C13.11 15.54 14.36 17.27 15.00 20.55C15.21 21.62 15.79 22.45 16.21 22.29C16.57 22.15 16.83 21.14 16.83 19.88C16.83 18.98 16.79 18.83 16.53 18.83C15.80 18.83 15.14 17.62 14.48 15.10C13.99 13.24 13.68 12.67 13.16 12.67C12.78 12.67 12.66 13.01 12.55 14.43C12.48 15.35 12.34 15.81 11.92 16.51L11.39 17.42L8.82 17.45C5.94 17.48 6.03 17.51 5.18 16.18C4.16 14.59 4.12 11.56 5.11 9.83C6.05 8.19 7.63 6.93 9.22 6.55C10.29 6.30 12.31 6.37 13.16 6.70C13.89 6.97 15.22 7.94 16.08 8.82C17.11 9.87 17.40 9.88 18.27 8.87C21.40 5.25 26.57 5.53 29.10 9.46C30.38 11.45 30.31 14.73 28.95 16.63C28.33 17.49 28.33 17.49 25.50 17.45L23.25 17.42L22.64 16.17C22.30 15.48 21.97 14.58 21.91 14.17C21.71 12.96 21.55 12.64 21.13 12.70C20.64 12.77 20.23 13.53 19.99 14.83C19.71 16.40 19.58 16.67 19.10 16.67C18.80 16.67 18.56 16.47 18.22 15.97C17.96 15.59 17.66 15.25 17.56 15.21C16.97 15.02 16.55 16.41 16.75 17.94L16.86 18.86L17.48 18.75C18.03 18.66 18.13 18.70 18.33 19.07C18.89 20.13 19.71 19.64 19.89 18.14C20.01 17.11 20.75 15.92 21.26 15.92C21.52 15.92 21.60 16.08 21.71 16.80C21.78 17.29 21.91 17.83 22.00 18.01C22.26 18.48 23.40 18.72 24.92 18.62C26.42 18.53 26.67 18.58 26.66 18.97C26.66 19.32 17.47 28.67 17.15 28.65C17.02 28.65 16.36 28.07 15.69 27.36Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-check-c" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="m8 12.3 2.7 2.7L16.2 9.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M17 7 7 17M7 7l10 10"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="8" r="4"/><path d="M2.5 20.5c.8-3.7 3.8-6 7.5-6s6.7 2.3 7.5 6"/><path d="M19 8v6M16 11h6"/></symbol>
+    <symbol id="i-steth" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v5a5 5 0 0 0 10 0V3"/><path d="M10 13v2a5 5 0 0 0 10 0v-2"/><circle cx="20" cy="11" r="2"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6l-5.6 9.3A1.8 1.8 0 0 0 6 21h12a1.8 1.8 0 0 0 1.6-2.7L14 9V3"/><path d="M7.5 15h9"/></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"/><path d="M12 7v10M9 9.5c1 .8 5 .8 6 0M9 12.5c1 .8 5 .8 6 0M9.5 15.5c.9.6 4.1.6 5 0"/></symbol>
+    <symbol id="i-pill" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.8" y="8.2" width="18.4" height="7.6" rx="3.8" transform="rotate(-45 12 12)"/><path d="m8.8 8.8 6.4 6.4"/></symbol>
+    <symbol id="i-receipt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.5c0 4.6 3.1 8.2 7.5 9.5 4.4-1.3 7.5-4.9 7.5-9.5V6z"/><path d="m8.8 12 2.2 2.2 4.3-4.4"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-8-4.6-8-10.5A4.5 4.5 0 0 1 12 7a4.5 4.5 0 0 1 8 2.5C20 15.4 12 20 12 20z"/><path d="M6 12h3l1.5-2.5 2 5L14 12h4"/></symbol>
+    <symbol id="i-queue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M7 9h4M7 13h10M7 16.5h7"/><path d="M15 7.5v3"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+    <symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 18a9 9 0 1 1 15 0"/><path d="m12 14 4-5"/><circle cx="12" cy="14" r="1.4"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 8.5 4.5v9L12 21l-8.5-4.5v-9z"/><path d="m3.5 7.5 8.5 4.5 8.5-4.5M12 12v9"/></symbol>
+    <symbol id="i-grad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5M22 9v6"/></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 6.5a4 4 0 0 0 5 5L21 13l-8 8-5-5 8-8z" transform="translate(-2 -2)"/><path d="M4 20l5-5"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="3"/><path d="M3 10h18M16 15h2"/><path d="M6 6V5a2 2 0 0 1 2-2h8"/></symbol>
+    <symbol id="i-form" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 8h8M8 12h8M8 16h5"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3.5h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 6.6 6.6l1.4-2.3 4.5 1.8V19a2 2 0 0 1-2 2A17 17 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2A9.7 9.7 0 0 0 3.7 16.9L2.3 21.8l5-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.7a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.7.3 2.8 2.8 0 0 0-.9 2.1 4.9 4.9 0 0 0 1 2.6 11.2 11.2 0 0 0 4.3 3.8c1.6.7 2.2.7 3 .6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5H16l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4a20 20 0 0 0-2.2-.1c-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></symbol>
+    <symbol id="i-tt" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 3h-3.2v12.2a2.8 2.8 0 1 1-2-2.7V9.2a6 6 0 1 0 5.2 6V9a7.3 7.3 0 0 0 4.3 1.4V7.2a4.3 4.3 0 0 1-4.3-4.2z"/></symbol>
+    <symbol id="i-in" viewBox="0 0 24 24" fill="currentColor"><path d="M6.5 8.5H3.3V20h3.2zM4.9 3.5a1.9 1.9 0 1 0 0 3.8 1.9 1.9 0 0 0 0-3.8zM20.7 13.4c0-3.1-1.7-4.9-4.3-4.9a3.7 3.7 0 0 0-3.3 1.8V8.5H10V20h3.2v-6c0-1.6.6-2.8 2.2-2.8s2 1.3 2 2.9V20h3.3z"/></symbol>
+  </defs>
+</svg>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+<header class="nav" id="top">
+  <div class="wrap">
+    <div class="nav-in">
+      <a class="brand" href="#top" aria-label="KlinikCare, kembali ke atas halaman">
+        <img class="logo" src="assets/klinikcare-logo.webp" alt="KlinikCare, Inovasi dalam Merawat, Kemudahan dalam Akses" width="640" height="167">
+      </a>
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="#alur">Alur Layanan</a>
+        <a href="#tampilan">Tampilan</a>
+        <a href="#keuntungan">Keuntungan</a>
+        <a href="#testimoni">Testimoni</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-ghost btn-sm" href="https://api.whatsapp.com/send/?phone=628111568477" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+        <a class="btn btn-primary btn-sm" href="#demo">Jadwalkan Demo</a>
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Buka menu"><svg width="22" height="22"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" hidden aria-label="Navigasi seluler">
+      <a href="#alur">Alur Layanan</a>
+      <a href="#tampilan">Tampilan</a>
+      <a href="#keuntungan">Keuntungan</a>
+      <a href="#testimoni">Testimoni</a>
+      <a href="#faq">FAQ</a>
+      <a href="#kontak">Kontak</a>
+      <a href="#demo">Jadwalkan Demo</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill"><i>Terintegrasi</i>BPJS &amp; SATUSEHAT</span>
+      <h1>Kelola seluruh layanan klinik dalam <span class="hl">satu aplikasi.<svg viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true"><path pathLength="100" d="M2 12h60l6-8 7 14 6-10 5 4h112" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></h1>
+      <p class="lede">Mulai dari pendaftaran hingga pembayaran, KlinikCare mengintegrasikan pemeriksaan, laboratorium, radiologi, farmasi, dan persediaan obat. Data pasien cukup dimasukkan satu kali, kemudian tersedia di seluruh unit layanan dan laporan klinik.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#demo">Jadwalkan Demo<svg><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-ghost" href="#alur">Lihat Alur Layanan</a>
+      </div>
+      <div class="hero-note">
+        <span><svg><use href="#i-check"/></svg>Termasuk pelatihan pengguna</span>
+        <span><svg><use href="#i-check"/></svg>Pemeliharaan sistem oleh tim kami</span>
+        <span><svg><use href="#i-check"/></svg>Pilihan pembelian atau berlangganan</span>
+      </div>
+    </div>
+
+    <div class="stage" id="stage">
+      <div class="shot-wrap" id="shotWrap">
+        <img class="shot" src="assets/dashboard.webp" alt="Dashboard KlinikCare berisi ringkasan registrasi, jumlah pasien, dan grafik kunjungan klinik mingguan" width="1400" height="1421" fetchpriority="high">
+      </div>
+      <div class="float ticket" aria-hidden="true">
+        <small>Nomor antrean</small>
+        <b>A-014</b>
+        <div class="perf"><span>Poli Umum</span><strong>± 8 menit</strong></div>
+      </div>
+      <div class="float toast" aria-hidden="true">
+        <span class="ic"><svg><use href="#i-check-c"/></svg></span>
+        <span><b>Terkirim ke SATUSEHAT</b><span>Kunjungan A-012 · 09.42 WIB</span></span>
+      </div>
+      <div class="float pulse-card" aria-hidden="true">
+        <div class="pc-top"><span class="pc-dot"></span>Pasien dilayani hari ini</div>
+        <div class="pc-num"><b class="count" data-to="36">36</b><span>dari 48 pasien</span></div>
+        <svg class="pc-ecg" viewBox="0 0 220 44" preserveAspectRatio="none"><path class="bg" d="M0 26 H46 l6 -4 l6 8 l6 -24 l7 34 l6 -18 l5 4 H118 l6 -4 l6 8 l6 -24 l7 34 l6 -18 l5 4 H220"/><path class="fg" pathLength="100" d="M0 26 H46 l6 -4 l6 8 l6 -24 l7 34 l6 -18 l5 4 H118 l6 -4 l6 8 l6 -24 l7 34 l6 -18 l5 4 H220"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="clients" aria-label="Klien pengguna KlinikCare">
+  <div class="wrap clients-in">
+    <p class="clients-label">Telah dipercaya dan digunakan oleh</p>
+    <ul class="client-logos">
+      <li class="client"><img src="assets/client-adera.webp" alt="Klinik Pratama Adera" width="270" height="97" class="cl-adera"></li>
+      <li class="client"><img src="assets/client-kokits.webp" alt="Kokits Medika" width="144" height="144" class="cl-kokits"></li>
+    </ul>
+  </div>
+</section>
+
+<!-- PAIN → FIX -->
+<section class="sec tint">
+  <div class="wrap pain-grid">
+    <div>
+      <div class="sec-head">
+        <span class="eyebrow">Tantangan operasional klinik</span>
+        <h2 class="h2">Apakah klinik Anda masih menghadapi kendala berikut?</h2>
+      </div>
+      <ul class="pains">
+        <li><span class="x"><svg><use href="#i-x"/></svg></span><span><b>Antrean pasien belum tertata</b><span>Nomor antrean dicatat secara manual sehingga pasien sering menanyakan giliran ke bagian pendaftaran.</span></span></li>
+        <li><span class="x"><svg><use href="#i-x"/></svg></span><span><b>Data pasien dicatat berulang kali</b><span>Bagian pendaftaran, dokter, laboratorium, dan apotek menggunakan catatan yang terpisah.</span></span></li>
+        <li><span class="x"><svg><use href="#i-x"/></svg></span><span><b>Selisih stok obat terlambat diketahui</b><span>Obat yang masuk dan keluar belum tercatat dalam satu sistem.</span></span></li>
+        <li><span class="x"><svg><use href="#i-x"/></svg></span><span><b>Penyusunan laporan memakan waktu lama</b><span>Pemilik klinik harus menunggu rekapitulasi manual untuk mengetahui kinerja klinik.</span></span></li>
+      </ul>
+    </div>
+    <div class="fix">
+      <span class="eyebrow">Solusi KlinikCare</span>
+      <h3 style="margin-top:12px">Satu aplikasi manajemen klinik untuk dokter, apoteker, laboran, dan pemilik klinik.</h3>
+      <p>Setiap tahap layanan pasien tercatat secara otomatis, mulai dari pendaftaran hingga pembayaran. Seluruh unit bekerja dengan data yang sama, dan pemilik klinik dapat memantau kinerja melalui dashboard.</p>
+      <ul>
+        <li><svg><use href="#i-check-c"/></svg><span>Nomor antrean dan estimasi waktu tunggu untuk setiap pasien</span></li>
+        <li><svg><use href="#i-check-c"/></svg><span>Rekam medis, hasil laboratorium, dan resep tersimpan dalam satu riwayat pasien</span></li>
+        <li><svg><use href="#i-check-c"/></svg><span>Stok obat berkurang otomatis saat obat diserahkan kepada pasien</span></li>
+        <li><svg><use href="#i-check-c"/></svg><span>Laporan aktivitas klinik tersedia setiap saat</span></li>
+      </ul>
+      <a class="btn btn-primary" href="#demo">Jadwalkan Demo<svg><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY (signature) -->
+<section class="sec" id="alur">
+  <div class="wrap" id="layanan">
+    <div class="sec-head center">
+      <span class="eyebrow">Alur layanan</span>
+      <h2 class="h2">Satu alur layanan, dari pendaftaran hingga pembayaran</h2>
+      <p class="lede">Pilih setiap tahap untuk melihat peran KlinikCare. Data yang dimasukkan pada satu tahap otomatis tersedia pada tahap berikutnya.</p>
+    </div>
+    <div class="journey">
+      <div class="stations" role="tablist" aria-label="Tahap alur layanan" id="stations">
+        <svg class="ecg" viewBox="0 0 1200 64" preserveAspectRatio="none" aria-hidden="true">
+          <defs><clipPath id="ecgClip"><rect id="ecgClipRect" x="0" y="0" width="100" height="64"/></clipPath></defs>
+          <path class="base" id="ecgBase" fill="none" stroke-width="2" vector-effect="non-scaling-stroke"/>
+          <path class="live" id="ecgLive" fill="none" stroke-width="2.5" vector-effect="non-scaling-stroke" clip-path="url(#ecgClip)"/>
+          <path class="runner" id="ecgRun" fill="none" pathLength="1000" stroke-width="3.5" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+        </svg>
+      </div>
+      <div class="jpanel" id="jpanel" role="tabpanel" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- APP SHOWCASE -->
+<section class="sec showcase" id="tampilan">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <span class="eyebrow">Tampilan aplikasi</span>
+      <h2 class="h2">Antarmuka yang sederhana untuk pekerjaan klinik sehari-hari</h2>
+      <p class="lede">Setiap modul dirancang agar mudah digunakan oleh petugas pendaftaran, dokter, laboran, hingga kasir, tanpa memerlukan keahlian teknis khusus.</p>
+    </div>
+    <div class="sc-tabs rv" role="tablist" aria-label="Pilih tampilan aplikasi" id="scTabs">
+      <button class="sc-tab" role="tab" type="button" id="sct0" aria-controls="scPanel" data-i="0"><svg><use href="#i-queue"/></svg>Antrean Poli<i class="bar"><i></i></i></button>
+      <button class="sc-tab" role="tab" type="button" id="sct1" aria-controls="scPanel" data-i="1"><svg><use href="#i-user"/></svg>Booking Pasien<i class="bar"><i></i></i></button>
+      <button class="sc-tab" role="tab" type="button" id="sct2" aria-controls="scPanel" data-i="2"><svg><use href="#i-flask"/></svg>Laboratorium<i class="bar"><i></i></i></button>
+    </div>
+    <div class="sc-stage rv" id="scStage">
+      <figure class="sc-card" data-i="0">
+        <img src="assets/screen-antrian.webp" alt="Layar Antrean Poli KlinikCare yang menampilkan nomor antrean aktif untuk setiap poli dan dokter" width="1400" height="1037">
+        <span class="hot" style="left:36%;top:25%"><i></i><em>Nomor antrean aktif setiap poli</em></span>
+      </figure>
+      <figure class="sc-card" data-i="1">
+        <img src="assets/screen-booking.webp" alt="Halaman Booking KlinikCare berisi daftar kode booking, nama pasien, dokter, poli, dan tanggal" width="1400" height="1037">
+        <span class="hot" style="left:40%;top:24.5%"><i></i><em>Pencarian pasien dan rekam medis</em></span>
+      </figure>
+      <figure class="sc-card" data-i="2">
+        <img src="assets/screen-lab.webp" alt="Halaman Laboratorium KlinikCare berisi daftar pemeriksaan pasien, status, dan status pembayaran" width="1400" height="1037">
+        <span class="hot left" style="left:91%;top:37%"><i></i><em>Status pembayaran pemeriksaan</em></span>
+      </figure>
+    </div>
+    <div class="sc-caption" id="scPanel" role="tabpanel" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- BENEFITS BENTO -->
+<section class="sec tint" id="keuntungan">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Keunggulan KlinikCare</span>
+      <h2 class="h2">Manfaat mengelola klinik dengan satu sistem terintegrasi</h2>
+    </div>
+    <div class="bento">
+      <article class="cell a">
+        <span class="ic"><svg><use href="#i-layers"/></svg></span>
+        <h3>Satu aplikasi untuk seluruh layanan klinik</h3>
+        <p>Tidak perlu berpindah antara aplikasi antrean, rekam medis, apotek, dan kasir. Cukup satu akun, satu data pasien, dan satu laporan.</p>
+        <div class="modules"><span>Registrasi</span><span>Pemeriksaan</span><span>Laboratorium</span><span>Radiologi</span><span>Farmasi</span><span>Penerimaan Barang</span><span>Kasir</span></div>
+      </article>
+      <article class="cell">
+        <span class="ic"><svg><use href="#i-shield"/></svg></span>
+        <h3>Terintegrasi dengan BPJS</h3>
+        <p>Layanan pasien BPJS tercatat langsung melalui aplikasi tanpa pencatatan ganda.</p>
+      </article>
+      <article class="cell">
+        <span class="ic"><svg><use href="#i-check-c"/></svg></span>
+        <h3>Sesuai standar SATUSEHAT</h3>
+        <p>Mendukung kewajiban penyelenggaraan rekam medis elektronik dari Kementerian Kesehatan.</p>
+      </article>
+      <article class="cell">
+        <span class="ic"><svg><use href="#i-queue"/></svg></span>
+        <h3>Sistem antrean</h3>
+        <p>Pasien mengetahui nomor gilirannya dan dokter mengetahui pasien berikutnya, sehingga ruang tunggu lebih tertib.</p>
+      </article>
+      <article class="cell">
+        <span class="ic"><svg><use href="#i-box"/></svg></span>
+        <h3>Manajemen persediaan</h3>
+        <p>Obat dan aset yang masuk maupun keluar tercatat, sehingga stok yang menipis dapat diketahui lebih awal.</p>
+      </article>
+      <article class="cell w">
+        <span class="ic"><svg><use href="#i-chart"/></svg></span>
+        <h3>Laporan tanpa rekapitulasi manual</h3>
+        <p>Pemilik klinik dapat memantau aktivitas harian, mingguan, dan bulanan tanpa menunggu laporan dari staf.</p>
+      </article>
+      <article class="cell w">
+        <span class="ic"><svg><use href="#i-gauge"/></svg></span>
+        <h3>Dashboard kinerja yang dapat diakses di mana saja</h3>
+        <p>Jumlah kunjungan, pasien yang dilayani, dan kinerja setiap layanan ditampilkan dalam satu layar.</p>
+        <div class="spark" aria-hidden="true"><i style="height:48%"></i><i style="height:62%"></i><i style="height:40%"></i><i style="height:70%"></i><i style="height:58%"></i><i style="height:78%"></i><i style="height:92%"></i></div>
+      </article>
+    </div>
+
+    <div class="roles">
+      <div class="role"><b><svg><use href="#i-steth"/></svg>Dokter</b><p>Riwayat pasien, hasil laboratorium, dan resep tersedia dalam satu layar pemeriksaan.</p></div>
+      <div class="role"><b><svg><use href="#i-pill"/></svg>Apoteker</b><p>Resep diterima langsung dari dokter dan stok obat diperbarui secara otomatis.</p></div>
+      <div class="role"><b><svg><use href="#i-flask"/></svg>Laboran</b><p>Permintaan pemeriksaan tercatat jelas dan hasil langsung dikirim kepada dokter.</p></div>
+      <div class="role"><b><svg><use href="#i-gauge"/></svg>Pemilik Klinik</b><p>Laporan dan dashboard untuk memantau klinik tanpa harus berada di lokasi.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REGULATION / URGENCY -->
+<section class="sec">
+  <div class="wrap">
+    <div class="reg">
+      <div style="position:relative;z-index:1">
+        <span class="eyebrow">Regulasi rekam medis</span>
+        <h2>Rekam medis elektronik kini wajib bagi setiap fasilitas pelayanan kesehatan.</h2>
+        <p>Peraturan Menteri Kesehatan Nomor 24 Tahun 2022 mewajibkan fasilitas pelayanan kesehatan menyelenggarakan rekam medis elektronik yang terhubung dengan platform SATUSEHAT. KlinikCare telah sesuai dengan standar SATUSEHAT, sehingga klinik Anda dapat memenuhi ketentuan tersebut tanpa perlu membangun sistem sendiri.</p>
+        <div class="hero-ctas"><a class="btn btn-primary" href="#demo">Konsultasikan Kesiapan Klinik<svg><use href="#i-arrow"/></svg></a></div>
+      </div>
+      <div class="reg-card" aria-label="Ringkasan kesiapan">
+        <div class="ln"><span>Dasar hukum</span><b>Permenkes No. 24 Tahun 2022</b></div>
+        <div class="ln"><span>Berlaku bagi</span><b>Seluruh fasyankes, termasuk klinik</b></div>
+        <div class="ln"><span>Integrasi</span><b>Platform SATUSEHAT Kemenkes</b></div>
+        <div class="ln"><span>Status KlinikCare</span><b style="color:var(--leaf)">Sesuai standar SATUSEHAT</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="sec tint" id="testimoni">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Testimoni</span>
+      <h2 class="h2">Pengalaman pengguna KlinikCare</h2>
+    </div>
+    <div class="tgrid">
+      <figure class="tcard" style="margin:0">
+        <blockquote>KlinikCare mempermudah saya dalam mengelola klinik. Proses pelayanan menjadi lebih cepat karena seluruh kebutuhan tersedia dalam satu aplikasi.</blockquote>
+        <figcaption class="who2"><span class="av" aria-hidden="true">DL</span><span><b>Devon Lane</b><span>Pengguna KlinikCare</span></span></figcaption>
+      </figure>
+      <figure class="tcard" style="margin:0">
+        <blockquote>KlinikCare memiliki fitur yang lengkap untuk membantu aktivitas klinik yang saya jalankan.</blockquote>
+        <figcaption class="who2"><span class="av" aria-hidden="true">BI</span><span><b>Budy Imaris</b><span>Pengguna KlinikCare</span></span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO DEMO -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow">Proses pengajuan</span>
+      <h2 class="h2">Tiga langkah untuk mendapatkan demo KlinikCare</h2>
+    </div>
+    <ol class="steps" style="margin:0;padding:0;list-style:none">
+      <li class="stepc"><span class="n">LANGKAH 1</span><span class="ic"><svg><use href="#i-form"/></svg></span><h3>Isi formulir</h3><p>Lengkapi nama, nama klinik, dan nomor WhatsApp. Pengisian membutuhkan waktu kurang dari satu menit.</p></li>
+      <li class="stepc"><span class="n">LANGKAH 2</span><span class="ic"><svg><use href="#i-search"/></svg></span><h3>Verifikasi oleh tim kami</h3><p>Tim KlinikCare akan memverifikasi data dan menyesuaikan materi demo dengan kebutuhan klinik Anda.</p></li>
+      <li class="stepc"><span class="n">LANGKAH 3</span><span class="ic"><svg><use href="#i-steth"/></svg></span><h3>Demo dan penawaran</h3><p>Tim kami akan memperagakan alur layanan klinik Anda di KlinikCare, kemudian mengirimkan penawaran paket melalui email.</p></li>
+    </ol>
+    <div class="offer">
+      <span><svg><use href="#i-wallet"/></svg>Pembelian penuh atau sewa bulanan/tahunan</span>
+      <span><svg><use href="#i-grad"/></svg>Pelatihan bagi pengguna</span>
+      <span><svg><use href="#i-tool"/></svg>Pemeliharaan sistem termasuk dalam layanan</span>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec tint" id="faq">
+  <div class="wrap faq-grid">
+    <div>
+      <div class="sec-head" style="margin-bottom:0">
+        <span class="eyebrow">FAQ</span>
+        <h2 class="h2">Pertanyaan yang sering diajukan</h2>
+        <p class="lede">Apabila pertanyaan Anda belum terjawab, tim kami siap membantu melalui WhatsApp atau telepon.</p>
+      </div>
+      <div class="help">
+        <b>Membutuhkan bantuan?</b>
+        <p>Tim kami siap membantu Anda memilih paket yang sesuai dengan kebutuhan klinik.</p>
+        <a class="btn btn-ghost btn-sm" style="justify-self:start" href="https://api.whatsapp.com/send/?phone=628111568477" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Hubungi Tim KlinikCare</a>
+      </div>
+    </div>
+    <div class="faq">
+      <details open><summary>Bagaimana cara mengajukan demo aplikasi?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p class="ans">Silakan isi formulir di bagian bawah halaman ini, atau hubungi kami melalui telepon (021) 8431 1636 dan email marketing@pkp.co.id. Tim kami akan menjadwalkan demo sesuai kebutuhan klinik Anda.</p></details>
+      <details><summary>Apakah aplikasi dapat dibeli secara penuh?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p class="ans">Dapat. Selain pembelian penuh, kami juga menyediakan skema sewa aplikasi dengan langganan bulanan atau tahunan.</p></details>
+      <details><summary>Apakah tersedia pelatihan penggunaan aplikasi?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p class="ans">Ya. Kami menyediakan pelatihan bagi pengguna, sehingga dokter, apoteker, laboran, dan staf administrasi siap menggunakan KlinikCare.</p></details>
+      <details><summary>Apakah pemeliharaan sistem termasuk dalam layanan?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p class="ans">Ya. Pemeliharaan sistem merupakan bagian dari layanan kami.</p></details>
+      <details><summary>Bagaimana keamanan data klinik kami?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p class="ans">KlinikCare dikembangkan oleh PT Prawathiya Karsa Pradiptha, perusahaan penyedia aplikasi yang telah beroperasi lebih dari 10 tahun. Kami menjaga keamanan dan kerahasiaan data setiap klien.</p></details>
+      <details><summary>Berapa lama masa penggunaan sistem setelah pembelian?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p class="ans">Kami menyediakan beberapa pilihan paket sesuai kebutuhan klinik. Untuk informasi lebih lanjut, silakan hubungi kami di (021) 8431 1636.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO FORM -->
+<section class="sec" id="demo">
+  <div class="wrap demo" id="kontak">
+    <div>
+      <div class="sec-head" style="margin-bottom:0">
+        <span class="eyebrow">Jadwalkan demo</span>
+        <h2 class="h2">Jadwalkan demo KlinikCare untuk klinik Anda</h2>
+        <p class="lede">Silakan isi formulir atau hubungi kami secara langsung. Tim KlinikCare akan menghubungi Anda melalui WhatsApp atau email.</p>
+      </div>
+      <div class="contact-list">
+        <div class="cl"><span class="ic"><svg><use href="#i-wa"/></svg></span><div><small>WhatsApp</small><b><a class="cl-link" href="https://api.whatsapp.com/send/?phone=628111568477" target="_blank" rel="noopener">+62 811-1568-477</a></b></div><button class="copy" data-copy="+628111568477">Salin</button></div>
+        <div class="cl"><span class="ic"><svg><use href="#i-phone"/></svg></span><div><small>Telepon</small><b><a class="cl-link" href="tel:+622184311636">(021) 8431 1636</a></b></div><button class="copy" data-copy="02184311636">Salin</button></div>
+        <div class="cl"><span class="ic"><svg><use href="#i-mail"/></svg></span><div><small>Email</small><b><a class="cl-link" href="mailto:marketing@pkp.co.id">marketing@pkp.co.id</a></b></div><button class="copy" data-copy="marketing@pkp.co.id">Salin</button></div>
+      </div>
+    </div>
+
+    <div class="form">
+      <form id="demoForm" novalidate>
+        <h3>Formulir Pengajuan Demo</h3>
+        <p class="sub">Seluruh kolom wajib diisi, kecuali yang bertanda (opsional).</p>
+        <div class="fields">
+          <div class="f"><label for="nama">Nama lengkap</label><input id="nama" name="nama" autocomplete="name" required placeholder="dr. Rina Wulandari"><span class="err" hidden>Mohon isi nama lengkap Anda.</span></div>
+          <div class="f"><label for="wa">Nomor WhatsApp</label><input id="wa" name="wa" type="tel" inputmode="tel" autocomplete="tel" required placeholder="0812 3456 7890"><span class="err" hidden>Mohon masukkan nomor WhatsApp yang aktif (minimal 9 digit).</span></div>
+          <div class="f"><label for="instansi">Nama instansi</label><input id="instansi" name="instansi" autocomplete="organization" required placeholder="Klinik Pratama Sehat"><span class="err" hidden>Mohon isi nama klinik atau instansi.</span></div>
+          <div class="f"><label for="jenis">Jenis instansi</label><select id="jenis" name="jenis" required><option value="">Pilih salah satu</option><option>Klinik</option><option>Rumah Sakit Umum</option><option>Apotek</option></select><span class="err" hidden>Mohon pilih jenis instansi.</span></div>
+          <div class="f"><label for="email">Email <em>(opsional)</em></label><input id="email" name="email" type="email" autocomplete="email" placeholder="nama@klinik.co.id"><span class="err" hidden>Format email belum sesuai, contoh: nama@klinik.co.id</span></div>
+          <div class="f"><label for="dokter">Jumlah dokter <em>(opsional)</em></label><input id="dokter" name="dokter" type="number" min="1" inputmode="numeric" placeholder="4"></div>
+          <details class="more">
+            <summary>Tambahkan informasi lainnya (opsional) <svg><use href="#i-chev"/></svg></summary>
+            <div class="fields">
+              <div class="f"><label for="jabatan">Jabatan <em>(opsional)</em></label><input id="jabatan" name="jabatan" autocomplete="organization-title" placeholder="Pemilik klinik"></div>
+              <div class="f"><label for="domisili">Domisili <em>(opsional)</em></label><input id="domisili" name="domisili" autocomplete="address-level2" placeholder="Bekasi"></div>
+              <div class="f full"><label for="sumber">Dari mana Anda mengetahui KlinikCare? <em>(opsional)</em></label><select id="sumber" name="sumber"><option value="">Pilih salah satu</option><option>Instagram</option><option>Facebook</option><option>LinkedIn</option><option>Google Ads</option><option>TikTok</option><option>Rekomendasi</option></select></div>
+              <div class="f full"><label for="catatan">Catatan <em>(opsional)</em></label><textarea id="catatan" name="catatan" placeholder="Contoh: kami membutuhkan modul laboratorium dan integrasi BPJS."></textarea></div>
+            </div>
+          </details>
+        </div>
+        <div class="submit">
+          <button class="btn btn-primary" type="submit">Ajukan Demo<svg><use href="#i-arrow"/></svg></button>
+          <small>Data Anda hanya digunakan oleh tim KlinikCare untuk keperluan penjadwalan demo.</small>
+        </div>
+      </form>
+      <div class="done" id="done" hidden tabindex="-1">
+        <span class="ok"><svg><use href="#i-check-c"/></svg></span>
+        <h3>Kirimkan pengajuan Anda</h3>
+        <p class="sub" style="margin:0">Data Anda belum terkirim. Silakan kirimkan ringkasan berikut kepada tim KlinikCare melalui WhatsApp, atau salin dan kirimkan melalui email.</p>
+        <div class="summary-box" id="summary"></div>
+        <a class="btn btn-primary" id="waSend" href="#" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Kirim melalui WhatsApp</a>
+        <button class="btn btn-ghost" id="copySummary" type="button">Salin Ringkasan untuk Email</button>
+        <button class="copy" id="editForm" type="button" style="justify-self:start">Ubah Data</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="sec tint">
+  <div class="wrap final">
+    <svg width="64" height="64" aria-hidden="true"><use href="#kc-mark"/></svg>
+    <h2>Tumbuh Bersama KlinikCare</h2>
+    <p>KlinikCare hadir untuk mendukung operasional klinik Anda. Aplikasi dapat diakses kapan saja dan di mana saja, dengan pendampingan tim kami mulai dari pelatihan hingga pemeliharaan sistem.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="#demo">Jadwalkan Demo<svg><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-ghost" href="https://api.whatsapp.com/send/?phone=628111568477" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Hubungi via WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="#top"><img class="logo logo-lg" src="assets/klinikcare-logo.webp" alt="KlinikCare" width="640" height="167" loading="lazy"></a>
+        <p style="margin-top:16px;max-width:40ch">Sistem informasi manajemen klinik untuk pendaftaran pasien, pemeriksaan, laboratorium, radiologi, hingga farmasi.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/profile.php?id=100095224112103" target="_blank" rel="noopener" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+          <a href="https://www.instagram.com/klinikhub.id" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+          <a href="https://www.tiktok.com/@klinikhub" target="_blank" rel="noopener" aria-label="TikTok"><svg><use href="#i-tt"/></svg></a>
+          <a href="https://api.whatsapp.com/send/?phone=628111568477" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navigasi</h4>
+        <ul><li><a href="#alur">Alur Layanan</a></li><li><a href="#tampilan">Tampilan Aplikasi</a></li><li><a href="#keuntungan">Keuntungan</a></li><li><a href="#testimoni">Testimoni</a></li><li><a href="#faq">FAQ</a></li><li><a href="#kontak">Kontak</a></li><li><a href="#demo">Jadwalkan Demo</a></li></ul>
+      </div>
+      <div>
+        <h4>Alamat Perusahaan</h4>
+        <p>PT Prawathiya Karsa Pradiptha<br>Kawasan Niaga Citra Gran Blok R7 No. 32, Jl. Alternatif Transyogie, Cibubur 17433</p>
+        <p style="margin-top:10px"><a href="tel:+622184311636">(021) 8431 1636</a><br><a href="mailto:marketing@pkp.co.id">marketing@pkp.co.id</a></p>
+      </div>
+    </div>
+    <div class="copyr"><span>© <span id="yr">2026</span> <a href="https://www.pkp.co.id/en/" target="_blank" rel="noopener" style="color:inherit">PT Prawathiya Karsa Pradiptha</a>. Hak cipta dilindungi undang-undang.</span><span>KlinikCare · Sistem Informasi Manajemen Klinik</span></div>
+  </div>
+</footer>
+
+<div class="mbar" id="mbar">
+  <a class="btn btn-ghost" href="https://api.whatsapp.com/send/?phone=628111568477" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+  <a class="btn btn-primary" href="#demo">Jadwalkan Demo</a>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
