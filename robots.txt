@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://klinikcare.id/sitemap.xml
+Sitemap: https://malfian7.github.io/klinikcare/sitemap.xml
