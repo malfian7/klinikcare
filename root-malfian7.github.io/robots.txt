@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://malfian7.github.io/sitemap.xml
+Sitemap: https://malfian7.github.io/klinikcare/sitemap.xml

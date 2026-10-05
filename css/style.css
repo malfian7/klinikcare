@@ -343,7 +343,7 @@ svg{flex-shrink:0}
 .final .hero-ctas{justify-content:center;margin-top:8px}
 footer{border-top:1px solid var(--line);background:var(--card);padding-block:64px 32px;font-size:14.5px}
 .foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
-.foot h4{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:700}
+.foot h3{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:700}
 .foot p,.foot a{color:var(--ink-2)}
 .foot ul{display:grid;gap:8px}
 .foot a{text-decoration:none}.foot a:hover{color:var(--sky)}
